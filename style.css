@@ -1,0 +1,48 @@
+body {
+    display: inline-block;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    background-color: #1F2937;
+}
+.title {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    background-color: #1F2937;
+
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
+.several-pictures {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.beauty {
+    width: 500px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+button {
+    font-family: Roboto, sans-serif;
+  border-radius: 8px;
+  padding: 8px;
+background-color: #3882f6;
+}
+.picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
